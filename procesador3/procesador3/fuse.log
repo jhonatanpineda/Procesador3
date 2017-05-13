@@ -1,0 +1,54 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/tb_Procesador_isim_beh.exe -prj C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/tb_Procesador_beh.prj work.tb_Procesador 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/Win_Man.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/UnityControl.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/Sumador.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/SEUDisp.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/SEU30.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/SEU.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/RegisterFile.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/PSR_Modifier.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/PSR.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/PC.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/MUXF.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/MUXC.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/MUX.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/IM.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/DataMemory.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/Procesador.vhd" into library work
+Parsing VHDL file "C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/tb_Procesador.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture arq_sumador of entity Sumador [sumador_default]
+Compiling architecture behavioral of entity IM [im_default]
+Compiling architecture behavioral of entity SEUDisp [seudisp_default]
+Compiling architecture behavioral of entity SEU30 [seu30_default]
+Compiling architecture behavioral of entity MUXF [muxf_default]
+Compiling architecture behavioral of entity UnityControl [unitycontrol_default]
+Compiling architecture behavioral of entity Win_Man [win_man_default]
+Compiling architecture behavioral of entity MUXC [muxc_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavioral of entity SEU [seu_default]
+Compiling architecture behavioral of entity MUX [mux_default]
+Compiling architecture behavioral of entity PSR_Modifier [psr_modifier_default]
+Compiling architecture behavioral of entity PSR [psr_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity DataMemory [datamemory_default]
+Compiling architecture behavioral of entity Procesador [procesador_default]
+Compiling architecture behavior of entity tb_procesador
+Time Resolution for simulation is 1ps.
+Waiting for 19 sub-compilation(s) to finish...
+Compiled 40 VHDL Units
+Built simulation executable C:/Users/Pineda/Desktop/2017/arquitectura/procesador3/procesador3/tb_Procesador_isim_beh.exe
+Fuse Memory Usage: 34708 KB
+Fuse CPU Usage: 1499 ms
